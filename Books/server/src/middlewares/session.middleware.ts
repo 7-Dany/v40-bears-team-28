@@ -10,7 +10,10 @@ declare module 'express-session' {
   }
 }
 
-export const redisClient = new Redis(config.redisUrl);
+export const redisClient = new Redis({
+  host: config.redisHost as string,
+  port: config.redisPort as unknown as number
+});
 const RedisStore = connectRedis(session);
 
 export const sessionMiddleware = session({
