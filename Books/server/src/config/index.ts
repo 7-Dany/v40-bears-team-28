@@ -33,5 +33,5 @@ export default {
   authSecret: AUTH_SECRET,
   resetPasswordSecret: RESET_PASSWORD_SECRET,
   cookieSecret: COOKIE_SECRET,
-  redisUrl: REDIS_URL
+  redisUrl: REDIS_URL as string
 };
