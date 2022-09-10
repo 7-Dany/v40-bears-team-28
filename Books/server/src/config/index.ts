@@ -16,6 +16,7 @@ const {
   AUTH_SECRET,
   RESET_PASSWORD_SECRET,
   COOKIE_SECRET,
+  REDIS_URL
 } = process.env;
 
 export default {
@@ -32,4 +33,5 @@ export default {
   authSecret: AUTH_SECRET,
   resetPasswordSecret: RESET_PASSWORD_SECRET,
   cookieSecret: COOKIE_SECRET,
+  redisUrl: REDIS_URL
 };
