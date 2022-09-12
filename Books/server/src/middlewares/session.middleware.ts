@@ -31,6 +31,6 @@ export const sessionMiddleware = session({
 });
 
 export const corsConfig = {
-  origin: 'http://localhost:3000',
+  origin: 'https://books-hut.netlify.app/',
   credentials: true,
 };
