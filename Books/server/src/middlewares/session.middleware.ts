@@ -31,6 +31,6 @@ export const sessionMiddleware = session({
 });
 
 export const corsConfig = {
-  origin: 'https://books-hut.netlify.app/',
+  origin: 'https://books-hut.netlify.app',
   credentials: true,
 };
